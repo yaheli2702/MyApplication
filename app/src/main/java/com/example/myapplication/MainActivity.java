@@ -17,6 +17,9 @@ public class MainActivity extends AppCompatActivity {
         counter=10;
         TextView countertextview= findViewById(R.id.textView_counter);
         countertextview.setText(""+counter);
+
+
+
     }
 
     public void knock(View view) {
